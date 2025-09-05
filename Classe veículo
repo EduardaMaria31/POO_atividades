@@ -1,0 +1,17 @@
+class Veiculo:
+    def exibir_mensagem(self, marca, modelo, avaliacao):
+        self.marca = marca
+        self.modelo = modelo
+        self.avalicao = avaliacao
+        print(f'Marca: {self.marca}')
+        print(f'Modelo: {self.modelo}')
+        print(f'Ano: {self.avalicao}')
+        
+veiculo = Veiculo()
+veiculo.exibir_mensagem('Toyota', 'Corolla (sedã)', 'Muito bom')
+print()
+veiculo2 = Veiculo()
+veiculo2.exibir_mensagem('Jeep', 'Jeep Commander', 'Carro fantástico')
+print()
+veiculo3 = Veiculo()
+veiculo3.exibir_mensagem('Nissan', 'Nissan Sentra', 'Modelo espetacular')
