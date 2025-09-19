@@ -1,0 +1,11 @@
+class Sorvete:
+    def mostrar_opcoes(self, opcoes):
+        print(f"A opção escolhida é: {opcoes}")
+
+    def mostrar_sabor(self, sabor):
+        print(f"O sabor escolhido foi: {sabor}")
+
+
+escolha = Sorvete()
+escolha.mostrar_opcoes('casquinha')
+escolha.mostrar_sabor('morango')
